@@ -1,0 +1,107 @@
+@import "header.scss";
+@import "nav.scss";
+@import "promo.scss";
+@import "services.scss";
+@font-face {
+  font-family: Helvetica;
+  src: url("../fonts/Helvetica.otf");
+}
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/HelveticaNeue.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url("../fonts/HelveticaNeueCyr-Bold.ttf");
+}
+*, *::before, *::after {box-sizing: border-box;}
+ul[class],ol[class] {padding: 0;}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption, blockquote,dl,dd {margin: 0; padding: 0}
+body {min-height: 100vh;scroll-behavior: smooth;text-rendering: optimizeSpeed;line-height: 1.5;}
+ul[class], ol[class] {list-style: none;}  a:not([class]) {text-decoration-skip-ink: auto;}
+img {max-width: 100%;display: block;}
+article > * + * {margin-top: 1em;}
+input,button,textarea,select {font: inherit;}
+a{text-decoration: none}
+
+$pink:#a82682;
+
+body{
+  height: 100%;
+  width: 100%;
+    font-family: "Helvetica",sans-serif;
+}
+.wrapper{
+  overflow: hidden;
+  height: 100%;
+}
+.container{
+  max-width: 1243px;
+  margin: 0 auto;
+}
+span.ripple{
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 600ms linear;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+  .arrow{
+    transition: transform 0.2s;
+    margin-bottom: 3px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .hidden{
+    display: none;
+  }
+
+  .prev{
+
+  }
+
+  .next{
+  }
+  
+  .img-phone{
+    position: relative;
+    margin-right: 4px;
+    text-align: center;
+    display: inline-block;
+  }
+  .img-doctor{
+    display: inline-block;
+    margin-right: 4px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+.img-message{
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  margin-right: 4px;
+  text-align: center;
+}
+.img-login{
+  position: relative;
+  display: inline-block;
+
+  margin-right: 4px;
+  text-align: center;
+}
+.body--is-menu{
+  overflow: hidden;
+}
+@media screen and (max-width: 1258px) {
+  .container{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}

@@ -1,0 +1,70 @@
+.promo {
+  height: 100vh;
+}
+.promo__row {
+  display: flex;
+}
+.promo__title {
+  margin-top: 40px;
+  margin-bottom: 14px;
+  font-size: 54px;
+  color: #2b2a29;
+  text-transform: uppercase;
+}
+.promo__body {
+  position: relative;
+  margin-top: 200px;
+}
+.promo__title--color {
+  color: #a82682;
+}
+.promo__text {
+  font-family: "Helvetica", sans-serif;
+  margin: 0 0 57px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2b2a29;
+}
+.promo__line {
+  display: inline-block;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.promo__number {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.promo__number:last-child {
+  opacity: 0.3;
+}
+.promo__button {
+  position: relative;
+  overflow: hidden;
+  height: 42px;
+  width: 163px;
+  margin-right: 20px;
+  transition: background 400ms;
+  outline: 0;
+  border: 1px solid #a82682;
+  background-color: #a82682;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.57;
+}
+.promo__button-slider {
+  margin-right: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.promo__button-slider:first-child {
+  margin-left: 0;
+}
+.promo__button-slider:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=promo.css.map */

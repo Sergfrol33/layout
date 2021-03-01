@@ -1,0 +1,19 @@
+{
+  "name": "layding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "mobile-detect": "^1.4.4",
+    "sass": "^1.32.7",
+    "swiper": "^6.4.12"
+  }
+}
